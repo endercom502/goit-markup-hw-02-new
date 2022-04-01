@@ -151,15 +151,3 @@ background-color: #F5F4FA;
 border: #fff;
 line-height: 1.625em;
 }
-.flex-elements {
-display: flex;
-justify-content: space-around;
-align-items: baseline;
-
-
-}
-.flex-menu-2 {
-display: flex;
-justify-content: flex-end;
-
-}
