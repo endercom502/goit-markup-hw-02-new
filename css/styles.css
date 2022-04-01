@@ -8,6 +8,9 @@ body {
     color: #fff;
     background-color:#2196F3;
 }
+.container {
+width: 1200px;
+}
 button {
     cursor: pointer;
 }
@@ -18,12 +21,15 @@ button:active {
 color: #2196F3
 }
 .title-big {
+display: flex;
+align-content: center;
+justify-content: center;
 background-color: #2F303A;
 color: white;
-text-align: center;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36em;
+height: 600px;
 }
 .footer-black {
 background-color: #2F303A;
@@ -52,10 +58,10 @@ a {
 color: #2196F3;
 }
 a:link {
-    text-decoration: #2196F3;
+text-decoration: #2196F3;
 }
 a:hover {
-    color: #d68112;
+border-bottom: #2196F3;
 }
 a:active {
     color: #2196F3;
@@ -80,10 +86,8 @@ color: #757575;
     border: #fff;
     line-height: 1.6em;
 }
-ul {
+.ul-style {
     list-style: none;
-    margin: 0;
-    padding: 0;
 }
 .list-head > li {
 font-size: 14px;
@@ -146,4 +150,16 @@ text-align: center;
 background-color: #F5F4FA;
 border: #fff;
 line-height: 1.625em;
+}
+.flex-elements {
+display: flex;
+justify-content: space-around;
+align-items: baseline;
+
+
+}
+.flex-menu-2 {
+display: flex;
+justify-content: flex-end;
+
 }
